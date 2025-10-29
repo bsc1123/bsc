@@ -3,63 +3,95 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>我的個人網站</title>
+    <title>律師 [您的名字] 的個人網站</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: "Noto Sans TC", Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f9;
+            background-color: #f8f9fa;
+            color: #333;
         }
         header {
-            background-color: #333;
+            background-color: #2c3e50;
             color: white;
             text-align: center;
-            padding: 20px;
+            padding: 30px 10px;
         }
         .container {
-            width: 80%;
-            margin: 0 auto;
+            width: 90%;
+            max-width: 800px;
+            margin: 40px auto;
             text-align: center;
         }
         .profile-img {
             border-radius: 50%;
-            width: 150px;
-            height: 150px;
+            width: 160px;
+            height: 160px;
             object-fit: cover;
-            margin-top: 30px;
+            border: 3px solid #2c3e50;
+            margin-bottom: 20px;
+        }
+        h1, h2 {
+            margin: 10px 0;
         }
         .intro {
-            margin-top: 20px;
-            font-size: 1.2em;
+            text-align: left;
+            background-color: white;
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            line-height: 1.8;
         }
         footer {
-            background-color: #333;
+            background-color: #2c3e50;
             color: white;
             text-align: center;
             padding: 10px;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
+            margin-top: 40px;
+        }
+        a {
+            color: #2980b9;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>歡迎來到我的個人網站</h1>
+        <h1>律師 [您的名字]</h1>
+        <p>專業・誠信・為您爭取正義</p>
     </header>
 
     <div class="container">
-        <!-- 在這裡放置您的個人照片 -->
-        <img src="your-photo.jpg" alt="個人照片" class="profile-img">
+        <!-- 放上您的個人照片 -->
+        <img src="your-photo.jpg" alt="律師個人照片" class="profile-img">
+
         <div class="intro">
-            <p>您好，我是 [您的名字]，歡迎來到我的個人網站！</p>
-            <p>這裡是我分享我的經歷和興趣的地方。</p>
+            <h2>關於我</h2>
+            <p>您好，我是 <strong>[您的名字]</strong> 律師，專精於民事訴訟、公司法務及刑事辯護等領域。致力於以專業的法律知識與實務經驗，為客戶提供最合適、最有效的法律解決方案。</p>
+
+            <p>我相信每一個案件都不僅僅是一份文件，而是關乎個人或企業的重要權益。因此，我重視每一個細節，並以誠信、嚴謹與責任感為核心，協助當事人爭取最有利的結果。</p>
+
+            <h2>專業領域</h2>
+            <ul style="text-align:left; display:inline-block;">
+                <li>民事訴訟與商業糾紛</li>
+                <li>公司法律顧問與契約審查</li>
+                <li>刑事辯護與法律諮詢</li>
+                <li>家庭與繼承案件</li>
+            </ul>
+
+            <h2>聯絡方式</h2>
+            <p>📞 電話：<a href="tel:0912345678">0912-345-678</a></p>
+            <p>📧 電子郵件：<a href="mailto:lawyer@example.com">lawyer@example.com</a></p>
+            <p>🏢 辦公室地址：台北市信義區信義路五段 7 號</p>
         </div>
     </div>
 
     <footer>
-        <p>© 2025 [您的名字] | 版權所有</p>
+        <p>© 2025 律師 [您的名字] | 保留所有權利</p>
     </footer>
 </body>
 </html>
