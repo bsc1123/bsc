@@ -33,22 +33,34 @@
             margin-top: 20px;
             text-align: center;
         }
-        .pdf-list {
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr;
-            gap: 20px;
-            margin-top: 30px;
-        }
-        .pdf-item {
-            background-color: #fff;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            text-align: center;
-        }
-        .pdf-item a {
-            color: #333;
+        .pdf-link {
+            display: inline-block;
+            background-color: #007BFF;
+            color: white;
+            padding: 15px 30px;
+            border-radius: 5px;
             text-decoration: none;
             font-size: 18px;
+            margin-top: 20px;
         }
-        .pdf-
+        .pdf-link:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Your Name's Portfolio</h1>
+    </header>
+    <div class="container">
+        <div class="content">
+            <img src="myphoto.jpg" alt="Your Photo" class="photo">
+            <h2>Welcome to My Personal Website</h2>
+            <p>This is a place to showcase my work and achievements. Below is my first work in PDF format:</p>
+
+            <!-- Direct link to the PDF -->
+            <a href="work1.pdf" class="pdf-link" target="_blank">Download Work 1 (PDF)</a>
+        </div>
+    </div>
+</body>
+</html>
